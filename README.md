@@ -1,6 +1,8 @@
 # Proyek Analisis Data: Bike Sharing Dataset
 Nama: Farrel Jonathan Vickeldo
+
 Email: farrel.jonathan.fj@gmail.com
+
 ID Dicoding: falthackel
 
 ## Menentukan Pertanyaan Bisnis
