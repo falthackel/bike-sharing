@@ -196,7 +196,7 @@ def create_workingday_hour(df):
 
     return by_workingday_hour_df
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("main_data.csv")
 
 # Convert 'dteday' column to datetime
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
@@ -206,7 +206,7 @@ max_date = all_df["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("outfushion.jpg")
+    st.image("../outfushion.jpg")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
