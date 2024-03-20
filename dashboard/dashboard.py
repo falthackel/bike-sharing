@@ -196,7 +196,7 @@ def create_workingday_hour(df):
 
     return by_workingday_hour_df
 
-all_df = pd.read_csv("https://github.com/falthackel/bike-sharing/blob/main/dashboard/main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/falthackel/bike-sharing/main/dashboard/main_data.csv")
 
 # Convert 'dteday' column to datetime
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
